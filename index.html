@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess the Number</h1>
+      <p>
+        I'm thinking of a number between <strong>1</strong> and
+        <strong>100</strong>.
+      </p>
+      <p>Can you guess what it is?</p>
+
+      <input type="number" id="guessInput" placeholder="Enter your guess" />
+      <button id="checkButton">Check</button>
+      <button id="resetButton">Reset</button>
+
+      <div id="message"></div>
+      <div id="attempts"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
